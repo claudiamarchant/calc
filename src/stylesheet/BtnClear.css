@@ -1,0 +1,22 @@
+/*em - unidad relativa segun el contenedor */
+
+.btn-clear {
+  height: 80px;
+  font-size: 1.6em;
+  display: flex;
+  flex: 1; /*para que llene todo el espacio*/
+  background-color: #ac0246;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid wheat;
+  cursor: pointer;
+  border-radius: 25px;
+  user-select: none; /*para que no parezca texto*/
+}
+
+.btn-clear:hover{
+  background-color: #ebb000;
+}

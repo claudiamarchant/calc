@@ -1,0 +1,31 @@
+.btn-cont{
+  height: 83px;
+  display: flex;
+  flex: 1 1; /*longitud flexible en base a los componentes
+  que estén cerca - proporciones 1 - 1 se distribuyen
+  equitativamente*/
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #4646eb;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none; /*no se puede seleccionar texto con raton*/
+}
+
+.btn-cont:hover{
+  background-color: #e3e637b6;
+}
+
+.op{
+  background-color: #46de80; 
+}
+
+.op:hover{
+  background-color: #e87e38ba;
+}
+
